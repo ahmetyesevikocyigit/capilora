@@ -1,0 +1,14 @@
+node_modules
+.next
+.next-*
+.data
+.env*
+.vercel
+tests
+test-results
+playwright-report
+AGENTS.md
+*.log
+*.tsbuildinfo
+scripts
+README.md

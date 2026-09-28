@@ -1,0 +1,21 @@
+node_modules/
+.next/
+.vercel/
+.env*
+!.env.example
+*.tsbuildinfo
+.vercel
+.data/
+
+.next-*/
+
+# Private recovery material and generated files
+.DS_Store
+next-env.d.ts
+*.log
+*.key
+*.pem
+test-results/
+playwright-report/
+backups/*.tar
+backups/*.tar.gz
