@@ -1,0 +1,10 @@
+[Unit]
+Description=Nightly Capilora data backup
+
+[Timer]
+OnCalendar=*-*-* 02:35:00 UTC
+Persistent=true
+RandomizedDelaySec=20m
+
+[Install]
+WantedBy=timers.target

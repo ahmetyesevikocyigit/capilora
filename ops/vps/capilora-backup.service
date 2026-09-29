@@ -1,0 +1,6 @@
+[Unit]
+Description=Back up Capilora persistent data
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/capilora-backup
